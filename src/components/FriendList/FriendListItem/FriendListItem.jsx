@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { showStatus } from 'utils/index'
-import { Item, Status, Title } from 'components/FriendListItem/FriendListItem.styled'
+import { Item, Status, Title } from 'components/FriendList/FriendListItem/FriendListItem.styled'
 export const FriendListItem = ({ avatar, name, isOnline }) => {
     return (
         <Item>

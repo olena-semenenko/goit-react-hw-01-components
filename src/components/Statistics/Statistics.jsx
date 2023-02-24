@@ -7,7 +7,7 @@ import { Section, SectionTitle, StatsList, StatsItem, StatsLabel, StatsPercentag
 export const Statistics = ({title, stats}) => {
     return (
         <Section>
-            {{ title } && <SectionTitle className="title">{title}</SectionTitle>}
+            { title  && <SectionTitle className="title">{title}</SectionTitle>}
            
             <StatsList>
                 {stats.map(item => (
