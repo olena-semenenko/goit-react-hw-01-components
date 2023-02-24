@@ -8,3 +8,11 @@ export function getRandomHexColor() {
 
   return color;
 }
+
+export function showStatus(status) {
+  if (status) {
+    return 'rgb(124, 252, 0)';
+  } else {
+    return 'rgb(255, 0, 0)';
+  }
+}
